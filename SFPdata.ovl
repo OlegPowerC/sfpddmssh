@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueLookup id="SFPdata" desiredValue="6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+    <Lookups>
+        <SingleInt state="Ok" value="1">Ok</SingleInt>
+        <SingleInt state="Warning" value="2">Low signal</SingleInt>
+        <SingleInt state="Error" value="3">Low signal</SingleInt>
+        <SingleInt state="Warning" value="4">High signal</SingleInt>
+        <SingleInt state="Error" value="5">High signal</SingleInt>
+        <SingleInt state="Error" value="6">No DDM information</SingleInt>
+        <SingleInt state="Error" value="7">Unknown error</SingleInt>
+    </Lookups>
+</ValueLookup>
